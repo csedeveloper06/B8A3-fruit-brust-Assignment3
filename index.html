@@ -74,7 +74,7 @@
 
     <header>
         <!-- navbar section  -->
-        <div class="lg:hidden h-screen flex  justify-center items-center gap-24">
+        <div class="lg:hidden h-screen flex md:flex-row  justify-between items-center px-10">
           <div class="flex justify-center items-center gap-2">
             <img src="images/logo.png" alt="">
             <h2 class="font-bold text-4xl">Fruit Burst</h2>
@@ -102,7 +102,7 @@
             </div>
         </nav>
         <!-- banner section  -->
-       <div class="relative container mx-auto">
+       <div class="relative  container mx-auto">
         <div class="carousel lg:container mx-auto px-4 py-14 my-14">
             <!-- slide 1  -->
             <div id="slide1" class="banner1 carousel-item relative w-full">
@@ -409,9 +409,9 @@
         <!-- meet the team section  -->
        <div class="banner1 flex flex-col justify-center items-center container mx-auto lg:my-12 text-white">
         <!-- title part  -->
-            <div class="px-96 py-16">
-                <h1 class="font-extrabold text-5xl text-center">Meet the team section</h1>
-                <p class="text-base text-justify py-6">
+            <div class="lg:px-96 lg:py-16">
+                <h1 class="font-extrabold lg:text-5xl text-center">Meet the team section</h1>
+                <p class="lg:text-justify py-6">
                     Contrary to popular belief, is not simply random text. 
                     It has roots in a piece of classical
                     Latin literature from 45 BC, making it over 2000 years old.
@@ -424,7 +424,7 @@
                     <img src="images/member1.png" alt="">
                     <h3 class="text-center">Awlad Hossain</h3>
                     <h4 class="text-center">Fruits Expert</h4>
-                    <div class="flex justify-center items-center gap-2">
+                    <div class="flex flex-col lg:flex-row justify-center items-center gap-2">
                         <a href="#"><i class="fa-brands fa-facebook-f text-sm text-center text-white bg-red-600 h-5 
                          w-5 rounded-full"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter text-sm text-center text-white bg-red-600 h-5 w-5 rounded-full"></i></a>
@@ -483,7 +483,7 @@
                               Latin literature from 45 BC, making it over 2000 years old.
             </p>
           </div>
-          <div class="flex flex-row justify-center items-center gap-16">
+        <div class="flex justify-center items-center gap-16">
           <div>
             <div class="flex justify-center items-center gap-3">
               <img class="h-10 w-10 rounded-full bg-slate-600" src="images/group1.jpg" alt="" >
@@ -493,7 +493,7 @@
                   Professional employees are there for you to 
                   pick the most amazing and fresh fruits.
                 </p>
-            </div>
+              </div>
             </div>
             <div class="flex justify-center items-center gap-3">
               <img class="h-10 w-10 rounded-full bg-slate-600" src="images/love1.jpg" alt="">
@@ -549,17 +549,17 @@
               </div>
             </div>
           </div>
-          </div>
+        </div>
       </section>
 
     </main>
 
-    <footer class="max-w-full bg-black h-screen flex flex-col justify-center items-center gap-24">
+    <footer class="bg-black h-screen flex flex-col justify-center items-center gap-24">
       <div class="text-white flex justify-center items-center gap-2">
         <img src="images/logo.png" alt="">
         <h2 class="font-bold text-4xl">Fruit Burst</h2>
       </div>
-      <div class="text-white list-none flex flex-col lg:flex-row justify-center items-center gap-20">
+      <div class="text-white list-none flex flex-wrap lg:flex-row justify-center items-center gap-20">
         <li><a href="#">Home</a></li>
         <li><a href="#">About Us</a></li>
         <li><a href="#">Shop</a></li>
@@ -567,7 +567,7 @@
         <li><a href="#">Support</a></li>
         <li><a href="#">My Account</a></li>
       </div>
-      <div class="text-white flex justify-center items-center gap-20">
+      <div class="text-white flex flex-wrap lg:flex-row justify-center lg:items-center gap-20">
         <a href="#"><i class="fa-brands fa-facebook-f 
             text-xl text-center bg-white text-blue-600 h-10 w-10 rounded-full p-1"></i></a>
         <a href="#"><i class="fa-brands fa-twitter text-2xl"></i></a>
