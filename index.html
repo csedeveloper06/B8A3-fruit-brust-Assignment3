@@ -174,10 +174,10 @@
                 </div>
             </div>
         </div>
-        <!-- Image Cards container  -->
-        <div class="flex flex-col lg:flex-row justify-center items-center gap-5 shadow-xl px-7 py-10">
+        <!-- Image cards container  -->
+        <div class="flex flex-col lg:flex-row justify-center items-center gap-5 px-7 py-10">
             <!-- first card  -->
-            <div class="card w-96 bg-white-100 shadow-xl border-2 py-8">
+            <div class="card shadow-xl w-96 bg-white-100  border-2 py-8">
                 <div class="flex flex-col justify-center items-center">
                   <img src="images/fruit6.png" alt="" class="rounded-xl" />
                   <p class="border-b-2 mt-5 font-bold text-2xl">12.90$ - 18.85$</p>
@@ -192,19 +192,47 @@
                     <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
                     <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
                   </div>
-                  <div class="card-actions">
-                    <button class="btn text-PrimaryColor bg-white">Details</button>
-                  </div>
+                   <!-- modal  -->
+                   <!-- You can open the modal using ID.showModal() method -->
+                  <button class="btn text-PrimaryColor border-transparent" onclick="my_modal_4.showModal()">Details</button>
+                  <dialog id="my_modal_4" class="modal">
+                    <form method="dialog" class="modal-box">
+                      <div class="modal-action">
+                        <!-- if there is a button, it will close the modal -->
+                        <div class="flex flex-col justify-center items-center gap-5">
+                          <img src="images/fruit6.png" alt="">
+                          <h1 class="text-4xl font-extrabold ">Apple</h1>
+                          <p class="text-center">
+                            Professional employees are there for you to pick the 
+                                        most amazing and fresh fruits.
+                          </p>
+                          <div>
+                            <a href=""><i class="fa-solid fa-star text-PrimaryColor text-3xl"></i></a>
+                            <a href=""><i class="fa-solid fa-star-half-stroke text-PrimaryColor text-3xl"></i></a>
+                            <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                            <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                            <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                          </div>
+                          <div class="flex justify-evenly items-center gap-8">
+                            <button class="btn text-PrimaryColor bg-white
+                               border-red-600 px-5 text-xs">Close</button>
+                            <button class="btn text-white bg-PrimaryColor font-bold 
+                              px-5 text-xs">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </dialog>
                 </div>
             </div>
             <!-- second card  -->
-            <div class="card w-96 bg-white-100 shadow-xl border-2 py-8">
+            <div class="card shadow-xl w-96 bg-white-100  border-2 py-8">
                 <div class="flex flex-col justify-center items-center">
                   <img src="images/fruit7.png" alt="" class="rounded-xl" />
                   <p class="border-b-2 mt-5 font-bold text-2xl">12.90$ - 18.85$</p>
                 </div>
                 <div class="card-body flex flex-col justify-center items-center">
-                  <h2 class="card-title">Apples</h2>
+                  <h2 class="card-title">Orange</h2>
                   <div>
                     <a href=""><i class="fa-solid fa-star text-PrimaryColor text-3xl"></i></a>
                     <a href=""><i class="fa-solid fa-star-half-stroke text-PrimaryColor text-3xl"></i></a>
@@ -212,19 +240,45 @@
                     <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
                     <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
                   </div>
-                  <div class="card-actions">
-                    <button class="btn text-PrimaryColor bg-white">Details</button>
-                  </div>
+                  <!-- modal  -->
+                  <!-- You can open the modal using ID.showModal() method -->
+                  <button class="btn text-PrimaryColor border-transparent" onclick="my_modal_3.showModal()">Details</button>
+                  <dialog id="my_modal_3" class="modal">
+                    <form method="dialog" class="modal-box">
+                      <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+                      <div class="flex flex-col justify-center items-center gap-5">
+                        <img src="images/fruit7.png" alt="">
+                        <h1 class="text-4xl font-extrabold ">Orange</h1>
+                        <p class="text-center">
+                          Professional employees are there for you to pick the 
+                                      most amazing and fresh fruits.
+                        </p>
+                        <div>
+                          <a href=""><i class="fa-solid fa-star text-PrimaryColor text-3xl"></i></a>
+                          <a href=""><i class="fa-solid fa-star-half-stroke text-PrimaryColor text-3xl"></i></a>
+                          <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                          <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                          <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                        </div>
+                        <div class="flex justify-evenly items-center gap-8">
+                          <button class="btn text-PrimaryColor bg-white
+                             border-red-600 px-5 text-xs">Close</button>
+                          <button class="btn text-white bg-PrimaryColor font-bold 
+                            px-5 text-xs">Buy Now</button>
+                        </div>
+                      </div>
+                    </form>
+                  </dialog>
                 </div>
             </div>
             <!-- third card  -->
-            <div class="card w-96 bg-white-100 shadow-xl border-2 py-8">
+            <div class="card shadow-xl w-96 bg-white-100  border-2 py-8">
                 <div class="flex flex-col justify-center items-center">
                   <img src="images/fruit8.png" alt="" class="rounded-xl" />
                   <p class="border-b-2 mt-5 font-bold text-2xl">12.90$ - 18.85$</p>
                 </div>
                 <div class="card-body flex flex-col justify-center items-center">
-                  <h2 class="card-title">Apples</h2>
+                  <h2 class="card-title">Red Dragon</h2>
                   <div>
                     <a href=""><i class="fa-solid fa-star text-PrimaryColor text-3xl"></i></a>
                     <a href=""><i class="fa-solid fa-star-half-stroke text-PrimaryColor text-3xl"></i></a>
@@ -232,19 +286,48 @@
                     <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
                     <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
                   </div>
-                  <div class="card-actions">
-                    <button class="btn text-PrimaryColor bg-white">Details</button>
-                  </div>
+                  <!-- modal  -->
+                  <!-- Open the modal using ID.showModal() method -->
+                  <button class="btn text-PrimaryColor border-transparent" onclick="my_modal_5.showModal()">Details</button>
+                  <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+                    <form method="dialog" class="modal-box">
+                      <h3 class="font-bold text-lg">Hello!</h3>
+                      <div class="modal-action">
+                        <!-- if there is a button in form, it will close the modal -->
+                        <div class="flex flex-col justify-center items-center gap-5">
+                          <img src="images/fruit8.png" alt="">
+                          <h1 class="text-4xl font-extrabold ">Red Dragon</h1>
+                          <p class="text-center">
+                            Professional employees are there for you to pick the 
+                                        most amazing and fresh fruits.
+                          </p>
+                          <div>
+                            <a href=""><i class="fa-solid fa-star text-PrimaryColor text-3xl"></i></a>
+                            <a href=""><i class="fa-solid fa-star-half-stroke text-PrimaryColor text-3xl"></i></a>
+                            <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                            <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                            <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                          </div>
+                          <div class="flex justify-evenly items-center gap-8">
+                            <button class="btn text-PrimaryColor bg-white
+                               border-red-600 px-5 text-xs">Close</button>
+                            <button class="btn text-white bg-PrimaryColor font-bold 
+                              px-5 text-xs">Buy Now</button>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </dialog>
                 </div>
             </div>
             <!-- fourth card  -->
-            <div class="card w-96 bg-white-100 shadow-xl border-2 py-8">
+            <div class="card shadow-xl w-96 bg-white-100  border-2 py-8">
                 <div class="flex flex-col justify-center items-center">
                   <img src="images/fruit9.png" alt="" class="rounded-xl" />
                   <p class="border-b-2 mt-5 font-bold text-2xl">12.90$ - 18.85$</p>
                 </div>
                 <div class="card-body flex flex-col justify-center items-center">
-                  <h2 class="card-title">Apples</h2>
+                  <h2 class="card-title">Banana</h2>
                   <div>
                     <a href=""><i class="fa-solid fa-star text-PrimaryColor text-3xl"></i></a>
                     <a href=""><i class="fa-solid fa-star-half-stroke text-PrimaryColor text-3xl"></i></a>
@@ -253,7 +336,34 @@
                     <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
                   </div>
                   <div class="card-actions">
-                    <button class="btn text-PrimaryColor bg-white">Details</button>
+                    <!-- Open the modal using ID.showModal() method -->
+                     <button class="btn bg-white text-PrimaryColor 
+                        border-transparent" onclick="my_modal_2.showModal()">Details</button>
+                      <dialog id="my_modal_2" class="modal">
+                        <form method="dialog" class="modal-box">
+                          <div class="flex flex-col justify-center items-center gap-5">
+                            <img src="images/fruit9.png" alt="">
+                            <h1 class="text-4xl font-extrabold ">Banana</h1>
+                            <p class="text-center">
+                              Professional employees are there for you to pick the 
+                                          most amazing and fresh fruits.
+                            </p>
+                            <div>
+                              <a href=""><i class="fa-solid fa-star text-PrimaryColor text-3xl"></i></a>
+                              <a href=""><i class="fa-solid fa-star-half-stroke text-PrimaryColor text-3xl"></i></a>
+                              <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                              <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                              <a href=""><i class="fa-solid fa-star text-pink-200 text-3xl"></i></a>
+                            </div>
+                            <div class="flex justify-evenly items-center gap-8">
+                              <button class="btn text-PrimaryColor bg-white
+                                 border-red-600 px-5 text-xs">Close</button>
+                              <button class="btn text-white bg-PrimaryColor font-bold 
+                                px-5 text-xs">Buy Now</button>
+                            </div>
+                          </div>
+                        </form>
+                      </dialog>
                   </div>
                 </div>
             </div>
