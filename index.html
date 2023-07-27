@@ -36,8 +36,32 @@
         .font-lato{
             font-family: 'Lato', sans-serif;
         }
-        .banner{
+        .banner1{
             background-image: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%),url('images/banner1.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 8px;
+            height: 100vh; 
+        }
+        .banner2{
+            background-image: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%),url('images/banner2.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 8px;
+            height: 100vh; 
+        }
+        .banner3{
+            background-image: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%),url('images/banner3.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 8px;
+            height: 100vh; 
+        }
+        .banner4{
+            background-image: linear-gradient(180deg, #121212 0%, rgba(18, 18, 18, 0.00) 100%),url('images/banner4.png');
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -69,9 +93,9 @@
         </nav>
         <!-- banner section  -->
        <div class="relative container mx-auto">
-        <div class="banner carousel lg:container mx-auto px-4 py-14 my-14">
+        <div class="carousel lg:container mx-auto px-4 py-14 my-14">
             <!-- slide 1  -->
-            <div id="slide1" class="carousel-item relative w-full">
+            <div id="slide1" class="banner1 carousel-item relative w-full">
              <div class="text-white mx-auto flex flex-col justify-center items-center gap-5">
                     <h1 class="font-extrabold text-7xl text-center">Exotic tastes at your<br> doorstep</h1>
                     <p class="text-lg">We supply highly quality organic products</p>
@@ -83,7 +107,7 @@
               </div>
             </div> 
             <!-- slide 2  -->
-            <div id="slide2" class="carousel-item relative w-full">
+            <div id="slide2" class="banner2 carousel-item relative w-full">
               <div class="text-white mx-auto flex flex-col justify-center items-center gap-5">
                     <h1 class="font-extrabold text-7xl text-center">Exotic tastes at your<br> doorstep</h1>
                     <p class="text-lg">We supply highly quality organic products</p>
@@ -95,7 +119,7 @@
               </div>
             </div> 
             <!-- slide 3  -->
-            <div id="slide3" class="carousel-item relative w-full">
+            <div id="slide3" class="banner3 carousel-item relative w-full">
               <div class="text-white mx-auto flex flex-col justify-center items-center gap-5">
                     <h1 class="font-extrabold text-7xl text-center">Exotic tastes at your doorstep</h1>
                     <p class="text-lg">We supply highly quality organic products</p>
@@ -107,7 +131,7 @@
               </div>
             </div> 
             <!-- slide 4  -->
-            <div id="slide4" class="carousel-item relative w-full">
+            <div id="slide4" class="banner4 carousel-item relative w-full">
               <div class="text-white mx-auto flex flex-col justify-center items-center gap-5">
                     <h1 class="font-extrabold text-7xl text-center">Exotic tastes at your doorstep</h1>
                     <p class="text-lg">We supply highly quality organic products</p>
@@ -121,7 +145,7 @@
         </div>
         <!-- fruits image background part  -->
           <div class="hidden lg:flex lg:justify-between lg:items-center lg:gap-3 lg:px-10 lg:ml-32  lg:w-4/5 lg:h-60 lg:bg-white
-            lg:absolute lg:-bottom-20 lg:rounded-l shadow-2xl">
+            lg:absolute lg:-bottom-9 lg:rounded-5 shadow-2xl">
             <div class="lg:flex lg:flex-col lg:justify-center lg:items-center">
                 <img src="images/fruit1.png" alt="">
                 <caption>Grapes</caption>
