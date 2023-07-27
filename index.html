@@ -71,9 +71,19 @@
     </style>
 </head>
 <body class="font-lato">
+
     <header>
         <!-- navbar section  -->
-        <nav class="bg-PrimaryColor text-white container mx-auto shadow-md h-28 px-10 py-7 my-12 rounded-full">
+        <div class="lg:hidden h-screen flex  justify-center items-center gap-24">
+          <div class="flex justify-center items-center gap-2">
+            <img src="images/logo.png" alt="">
+            <h2 class="font-bold text-4xl">Fruit Burst</h2>
+          </div>
+          <div class="">
+            <a href="#"><i class="fa-solid fa-bars text-2xl left-full"></i></a>
+          </div>
+        </div>
+        <nav class="hidden lg:block lg:bg-PrimaryColor lg:text-white lg:container lg:mx-auto lg:shadow-md lg:h-28 lg:px-10 lg:py-7 lg:my-12 lg:rounded-full">
             <div class="flex justify-between items-center">
                 <div class="flex justify-center items-center list-none gap-3 text-lg no-underline">
                    <a class="hover:text-gray-400"  href="#"> <li>Home</li></a>
@@ -397,7 +407,7 @@
             text-xl rounded-lg px-7 my-10">Shop All</button>
        </div>
         <!-- meet the team section  -->
-       <div class="banner flex flex-col justify-center items-center container mx-auto lg:my-12 text-white">
+       <div class="banner1 flex flex-col justify-center items-center container mx-auto lg:my-12 text-white">
         <!-- title part  -->
             <div class="px-96 py-16">
                 <h1 class="font-extrabold text-5xl text-center">Meet the team section</h1>
@@ -564,5 +574,5 @@
         <a href="#"><i class="fa-brands fa-youtube bg-white text-red-600 text-xl p-1 rounded-md"></i></a>
       </div>
     </footer>
-    </body>
+  </body>
 </html>
